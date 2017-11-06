@@ -3,4 +3,9 @@
 */
 module.exports = exports = function(input, value) {
 //  complete the function
+  for(let i=0;i<input.length;i++){
+    if(input[i] === value )
+      return i;
+  }
+  return -1;
 };
